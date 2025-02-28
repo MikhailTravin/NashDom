@@ -3564,6 +3564,7 @@
 		allowTouchMove: true,
 		speed: 800,
 		loop: true,
+		loopedSlides: 3,
 		effect: "fade",
 		autoplay: {
 			delay: 3e3,
