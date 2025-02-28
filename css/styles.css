@@ -224,13 +224,6 @@ h6 {
 .select__btntext {
   position: relative;
   cursor: pointer;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 .select__btntext input {
   pointer-events: none;
@@ -308,8 +301,8 @@ body::after {
   top: 0;
   left: 0;
   opacity: 0;
-  -webkit-transition: opacity 0.8s ease 0s;
-  transition: opacity 0.8s ease 0s;
+  -webkit-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
   pointer-events: none;
   z-index: 149;
 }
@@ -2186,7 +2179,7 @@ h5 {
 @media (max-width: 991.98px) {
   .main-home-banner .banner__item {
     min-height: 646px;
-    padding: 130px 0px 63px 0px;
+    padding: 130px 0px 94px 0px;
   }
 }
 .main-home-banner .banner__about {
